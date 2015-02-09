@@ -1,4 +1,4 @@
-require 'spec_helper'
+require "spec_helper"
 
 describe :have_queued_job_at do
   subject(:worker) { Worker }
